@@ -8,6 +8,9 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    margin-bottom: 50px;
+}
 .orange-color{
     color: orange;
 }
@@ -35,6 +38,9 @@ section{
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
+    box-shadow: 2px 4px linen;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 .dream-big{
     background: url(images/dream-bg.png);
@@ -68,4 +74,5 @@ section{
 }
 footer p{
     text-align: center;
+    color: gray;
 }
