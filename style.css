@@ -76,3 +76,19 @@ footer p{
     text-align: center;
     color: gray;
 }
+
+.cyan-color{
+
+    background: linear-gradient(-75deg , orange 20%,tomato 60%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradiente 4s linear infinite;
+}
+@keyframes gradiente{
+     to {
+      background-position: 200% center;
+    }
+}
